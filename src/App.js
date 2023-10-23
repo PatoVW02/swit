@@ -1,7 +1,7 @@
 import { Routes, Route, BrowserRouter } from "react-router-dom";
 import Layout from "./layout";
 import Home from "./views/home";
-import Speakers from "./views/speakers";
+import Speakers from "./views/speakers/Speakers";
 import Registration from "./views/registration";
 import Contact from "./views/contact";
 
