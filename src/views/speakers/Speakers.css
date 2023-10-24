@@ -5,7 +5,7 @@
 
 .Title{
     position: absolute;
-    bottom: 80px;
+    bottom: 160px;
     left: 9.8%;
     width: 534px;
     height: 145px;
@@ -22,9 +22,7 @@
 
 .background{
     width: 1346px;
-    height: 509px;
-    object-fit: cover; 
-    object-position: 0% 0%;
+    height: 400px;
     flex-shrink: 0;
 
 }

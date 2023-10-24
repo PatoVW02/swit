@@ -1,4 +1,4 @@
-import BigImage from "../../assets/map_img_893643_1549392744.jpg";
+import BigImage from "../../assets/Hombros de gigantes.jpg";
 import "./Speakers.css"
 
 const Speakers = () => {
