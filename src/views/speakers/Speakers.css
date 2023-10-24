@@ -10,9 +10,7 @@
     width: 534px;
     height: 145px;
     flex-shrink: 0;
-
     color: white;
-
     font-family: Literata;
     font-size: 96px;
     font-style: normal;
@@ -23,6 +21,7 @@
 .background{
     width: 1346px;
     height: 400px;
+
     flex-shrink: 0;
 
 }
