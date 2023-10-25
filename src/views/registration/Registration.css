@@ -1,0 +1,25 @@
+.contenedor {
+    position: relative;
+    width: 100%; /* Ajusta el ancho al que desees */
+    max-width: 100%; /* Ajusta el ancho máximo al que desees */
+  }
+  
+  .imagen-fondo {
+    width: 100%;
+    height: auto;
+  }
+  
+  .RegistrationTitle{
+    position: absolute;
+    bottom: 160px;
+    left: 9.8%;
+    width: 534px;
+    height: 0px;
+    flex-shrink: 0;
+    color: white;
+    font-family: Literata;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}  
