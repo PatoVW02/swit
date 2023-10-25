@@ -25,3 +25,44 @@
     flex-shrink: 0;
 
 }
+
+.Descripcion{
+    width: 1000px;
+    margin: auto;
+    text-align: center;
+    color: #000;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+
+.Speaker1{
+    width: 300px;
+    height: 250px;
+    display: block;
+    float: left;
+    margin-left: 148px;
+
+}
+
+.Speaker2{
+    width: 300px;
+    height: 250px;
+    display: block;
+    float: left;
+    margin-left: 75px;
+
+}
+
+.Speaker3{
+    width: 300px;
+    height: 250px;
+    display: block;
+    float: right;
+    margin-right: 148px;
+
+}
