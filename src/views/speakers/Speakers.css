@@ -1,9 +1,11 @@
-.Speakers{
+.Speakers {
     aspect-ratio: 16/9;
+    background-color: #EEEEEE;
+
 
 }
 
-.Title{
+.Title {
     position: absolute;
     bottom: 160px;
     left: 9.8%;
@@ -18,7 +20,7 @@
     line-height: normal;
 }
 
-.background{
+.BigPic {
     width: 1346px;
     height: 400px;
 
@@ -26,13 +28,13 @@
 
 }
 
-.Descripcion{
+.Descripcion {
     width: 1000px;
     margin: auto;
     text-align: center;
     color: #000;
     font-family: Poppins;
-    font-size: 24px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -40,7 +42,7 @@
 
 
 
-.Speaker{
+.Speaker {
     width: 300px;
     height: 250px;
     /*display: block;
@@ -49,24 +51,37 @@
 
 }
 
+.Bio {
+    color: #000;
+    width: 280px;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 5%;
+}
 
 
-.axe{
+
+.axe {
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
+    /* Add this property to allow wrapping */
     justify-content: space-evenly;
 }
 
 .speaker-container {
-    display: inline-block; 
-    text-align: center; 
-    /*margin: 10px; */
-
-  }
-
-
-  .speaker-container p {
-    margin-top: 5px; 
+    text-align: center;
+    margin: 10px;
+    /* Add margin to separate the speaker containers */
+    flex-basis: calc(33.33% - 130px);
+    /*Distribute width equally for 3 items per row*/
+}
 
 
-  }
+.speaker-container p {
+    margin-top: 5px;
+
+
+}

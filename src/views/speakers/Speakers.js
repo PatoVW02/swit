@@ -2,6 +2,14 @@ import BigImage from "../../assets/Hombros de gigantes.jpg";
 import DKnuth from "../../assets/Donald Knuth.jpg"
 import VCerf from "../../assets/sdvg.jpg"
 import Kleinrock from "../../assets/5c65b8535f583ad53b404ed7ea60c98e.png"
+import Gamal from "../../assets/ElGamal.jpg"
+import Metcalfe from "../../assets/metcalfe_3968158.jpeg"
+import Ullman from "../../assets/1054360.jpg"
+import Crocker from "../../assets/Crocker.png"
+import Tibs from "../../assets/Tibshirani.jpg"
+import Lamp from "../../assets/Lamport1.jpeg"
+import Spinolla from "../../assets/Spinolla.png"
+
 
 import "./Speakers.css"
 
@@ -9,7 +17,7 @@ const Speakers = () => {
   return (
     <div className="Speakers">
       <h1 className="Title">Speakers</h1>
-      <img src={BigImage} alt='background' className='background'></img>
+      <img src={BigImage} alt='background' className='BigPic'></img>
       <p>
 
       </p>
@@ -25,27 +33,68 @@ const Speakers = () => {
         <div class="speaker-container">
           <img src={DKnuth} alt='Knuth' className='Speaker'></img>
           <p>Donald Knuth</p>
+          <p className="Bio">Creator of the TeX computer typesetting system, the related METAFONT font definition language and rendering system, and the Computer Modern family of typefaces.</p>
         </div>
 
         <div class="speaker-container">
           <img src={VCerf} alt='Cerf' className='Speaker'></img>
           <p>Vint Cerf</p>
+          <p className="Bio">Creator of the TeX computer typesetting system, the related METAFONT font definition language and rendering system, and the Computer Modern family of typefaces.</p>
+          
         </div>
 
         <div class="speaker-container">
           <img src={Kleinrock} alt='Kleinrock' className='Speaker'></img>
           <p>Leonard Kleinrock</p>
-        </div>
-      </body>
+          <p className="Bio">Creator of the TeX computer typesetting system, the related METAFONT font definition language and rendering system, and the Computer Modern family of typefaces.</p>
 
-      <body className="axe">
+        </div>
+
+        <div class="speaker-container">
+          <img src={Gamal} alt='Kleinrock' className='Speaker'></img>
+          <p>Taher ElGamal</p>
+        </div>
+
+        <div class="speaker-container">
+          <img src={Metcalfe} alt='Kleinrock' className='Speaker'></img>
+          <p>Robert Metcalfe</p>
+        </div>
+
+        <div class="speaker-container">
+          <img src={Ullman} alt='Kleinrock' className='Speaker'></img>
+          <p>Jeffrey Ullman</p>
+        </div>
+
+        <div class="speaker-container">
+          <img src={Crocker} alt='Kleinrock' className='Speaker'></img>
+          <p>Steve Crocker</p>
+        </div>
+
+        <div class="speaker-container">
+          <img src={Tibs} alt='Kleinrock' className='Speaker'></img>
+          <p>Robert Tibshirani</p>
+        </div>
+
+        <div class="speaker-container">
+          <img src={Lamp} alt='Kleinrock' className='Speaker'></img>
+          <p>Leslie Lamport</p>
+        </div>
+
+        <div class="speaker-container">
+          <img src={Spinolla} alt='Kleinrock' className='Speaker'></img>
+          <p>Adrian Espinola</p>
+        </div>
+
         
-      <div class="speaker-container">
-          <img src={Kleinrock} alt='Kleinrock' className='Speaker'></img>
-          <p>Leonard Kleinrock</p>
-        </div>
+        
+
+        
 
       </body>
+
+        
+      
+
 
       
 
