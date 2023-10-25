@@ -15,19 +15,28 @@ const Speakers = () => {
       </p>
 
       <h2 className="Descripcion">
-      Aquí encontramos individuos pioneros en las ciencias computacionales y líderes cuyas 
-      contribuciones colectivamente, han formado el mundo actual y la era digital en la que vivimos.
+        Aquí encontramos individuos pioneros en las ciencias computacionales y líderes cuyas
+        contribuciones colectivamente, han formado el mundo actual y la era digital en la que vivimos.
       </h2>
       <p>
 
       </p>
-      
+      <body className="axe">
+        <div class="speaker-container">
+          <img src={DKnuth} alt='Knuth' className='Speaker1'></img>
+          <p>Donald Knuth</p>
+        </div>
 
-      <img src={DKnuth} alt='Knuth' className='Speaker1'></img>
+        <div class="speaker-container">
+          <img src={VCerf} alt='Cerf' className='Speaker2'></img>
+          <p>Vint Cerf</p>
+        </div>
 
-      <img src={VCerf} alt='Knuth' className='Speaker2'></img>
-
-      <img src={Kleinrock} alt='Knuth' className='Speaker3'></img>
+        <div class="speaker-container">
+          <img src={Kleinrock} alt='Kleinrock' className='Speaker3'></img>
+          <p>Leonard Kleinrock</p>
+        </div>
+      </body>
 
 
 

@@ -43,26 +43,46 @@
 .Speaker1{
     width: 300px;
     height: 250px;
-    display: block;
+    /*display: block;
     float: left;
-    margin-left: 148px;
+    margin-left: 148px;*/
 
 }
 
 .Speaker2{
     width: 300px;
     height: 250px;
-    display: block;
+    /*display: block;
     float: left;
-    margin-left: 75px;
+    margin-left: 75px;*/
 
 }
 
 .Speaker3{
     width: 300px;
     height: 250px;
-    display: block;
+    /*display: block;
     float: right;
-    margin-right: 148px;
+    margin-right: 148px;*/
 
 }
+
+.axe{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.speaker-container {
+    display: inline-block; 
+    text-align: center; 
+    margin: 10px; 
+
+  }
+
+
+  .speaker-container p {
+    margin-top: 5px; 
+
+
+  }
