@@ -23,20 +23,31 @@ const Speakers = () => {
       </p>
       <body className="axe">
         <div class="speaker-container">
-          <img src={DKnuth} alt='Knuth' className='Speaker1'></img>
+          <img src={DKnuth} alt='Knuth' className='Speaker'></img>
           <p>Donald Knuth</p>
         </div>
 
         <div class="speaker-container">
-          <img src={VCerf} alt='Cerf' className='Speaker2'></img>
+          <img src={VCerf} alt='Cerf' className='Speaker'></img>
           <p>Vint Cerf</p>
         </div>
 
         <div class="speaker-container">
-          <img src={Kleinrock} alt='Kleinrock' className='Speaker3'></img>
+          <img src={Kleinrock} alt='Kleinrock' className='Speaker'></img>
           <p>Leonard Kleinrock</p>
         </div>
       </body>
+
+      <body className="axe">
+        
+      <div class="speaker-container">
+          <img src={Kleinrock} alt='Kleinrock' className='Speaker'></img>
+          <p>Leonard Kleinrock</p>
+        </div>
+
+      </body>
+
+      
 
 
 

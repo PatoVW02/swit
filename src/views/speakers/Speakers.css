@@ -40,7 +40,7 @@
 
 
 
-.Speaker1{
+.Speaker{
     width: 300px;
     height: 250px;
     /*display: block;
@@ -49,23 +49,7 @@
 
 }
 
-.Speaker2{
-    width: 300px;
-    height: 250px;
-    /*display: block;
-    float: left;
-    margin-left: 75px;*/
 
-}
-
-.Speaker3{
-    width: 300px;
-    height: 250px;
-    /*display: block;
-    float: right;
-    margin-right: 148px;*/
-
-}
 
 .axe{
     display: flex;
@@ -76,7 +60,7 @@
 .speaker-container {
     display: inline-block; 
     text-align: center; 
-    margin: 10px; 
+    /*margin: 10px; */
 
   }
 
