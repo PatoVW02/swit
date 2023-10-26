@@ -1,7 +1,7 @@
 .contenedor {
     position: relative;
-    width: 100%; /* Ajusta el ancho al que desees */
-    max-width: 100%; /* Ajusta el ancho máximo al que desees */
+    width: 100%; 
+    max-width: 100%;
   }
   
   .imagen-fondo {

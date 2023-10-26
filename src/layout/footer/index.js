@@ -1,12 +1,17 @@
 import React from "react";
+import "./footer.css"
+import ITESM from "../../assets/ITESM.png"
 
 const Footer = () => {
     return (
-        <footer className="footer">
-            <div className="container has-text-centered">
-                footer
+        <footer className="Footer">
+            <div className="izquierda">
+                <img src={ITESM} alt="Imagen de derechos reservados" className="imagen-footer" />
             </div>
-        </footer>
+            <div className="derecha">
+                <p>Seminar with IT Pioneers and Leaders</p>
+            </div>
+    </footer>
     );
 }
 
