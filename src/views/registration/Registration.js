@@ -3,9 +3,12 @@ import "./Registration.css";
 
 const Registration = () => {
   return (
-    <div className="contenedor">
-      <img src={tech} alt="Imagen de bienvenida" className="imagen-fondo" />
-      <h1 className="RegistrationTitle">Registro</h1>
+    <div>
+      <div className="container">
+        <img src={tech} alt="Imagen de tecnología" className="background-image" />
+        <h1 className="registration-title">Registro</h1>
+      </div>
+      <div className="welcome-rectangle">Virtual event</div>
     </div>
   );
 };

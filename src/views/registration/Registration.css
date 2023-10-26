@@ -1,15 +1,17 @@
-.contenedor {
+.container {
     position: relative;
     width: 100%; 
     max-width: 100%;
   }
   
-  .imagen-fondo {
+  .background-image {
+    display: block;
     width: 100%;
     height: auto;
   }
   
-  .RegistrationTitle{
+  .registration-title{
+    margin: 0;
     position: absolute;
     bottom: 160px;
     left: 9.8%;
@@ -22,4 +24,14 @@
     font-style: normal;
     font-weight: 800;
     line-height: normal;
-}  
+}
+
+.welcome-rectangle {
+  background-color: #4c5442; 
+  width: 100%; 
+  text-align: center; 
+  color: white; 
+  font-size: 50px; 
+  font-weight: 700;
+  padding: 40px 0; 
+}

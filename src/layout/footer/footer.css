@@ -14,11 +14,11 @@
     display: block;
   }
   
-  .izquierda {
+  .left {
     text-align: left;
   }
   
-  .derecha {
+  .right {
     text-align: right;
     white-space: nowrap;
     font-size: 18px; 
