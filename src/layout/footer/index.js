@@ -11,7 +11,7 @@ const Footer = () => {
             <div className="right">
                 <p>Seminar with IT Pioneers and Leaders</p>
             </div>
-    </footer>
+        </footer>
     );
 }
 
