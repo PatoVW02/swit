@@ -66,6 +66,9 @@ const Speakers = () => {
           <img src={Gamal} alt='Kleinrock' className='Speaker'></img>
           <p>Taher ElGamal</p>
 
+          <p className="Bio">Creator of the TeX computer typesetting system, the related METAFONT font definition language and rendering system, and the Computer Modern family of typefaces.</p>
+          
+
           <div class="center-bottom-box">
             <a href="your-link-here">Learn more</a>
           </div>
@@ -77,6 +80,9 @@ const Speakers = () => {
           <img src={Metcalfe} alt='Kleinrock' className='Speaker'></img>
           <p>Robert Metcalfe</p>
 
+          <p className="Bio">Creator of the TeX computer typesetting system, the related METAFONT font definition language and rendering system, and the Computer Modern family of typefaces.</p>
+
+
           <div class="center-bottom-box">
             <a href="your-link-here">Learn more</a>
           </div>
@@ -85,6 +91,9 @@ const Speakers = () => {
         <div class="speaker-container">
           <img src={Ullman} alt='Kleinrock' className='Speaker'></img>
           <p>Jeffrey Ullman</p>
+
+          <p className="Bio">Creator of the TeX computer typesetting system, the related METAFONT font definition language and rendering system, and the Computer Modern family of typefaces.</p>
+
 
           <div class="center-bottom-box">
             <a href="your-link-here">Learn more</a>
@@ -97,6 +106,9 @@ const Speakers = () => {
           <img src={Crocker} alt='Kleinrock' className='Speaker'></img>
           <p>Steve Crocker</p>
 
+          <p className="Bio">Creator of the TeX computer typesetting system, the related METAFONT font definition language and rendering system, and the Computer Modern family of typefaces.</p>
+
+
           <div class="center-bottom-box">
             <a href="your-link-here">Learn more</a>
           </div>
@@ -105,6 +117,9 @@ const Speakers = () => {
         <div class="speaker-container">
           <img src={Tibs} alt='Kleinrock' className='Speaker'></img>
           <p>Robert Tibshirani</p>
+
+          <p className="Bio">Creator of the TeX computer typesetting system, the related METAFONT font definition language and rendering system, and the Computer Modern family of typefaces.</p>
+
 
           <div class="center-bottom-box">
             <a href="your-link-here">Learn more</a>
@@ -115,6 +130,9 @@ const Speakers = () => {
           <img src={Lamp} alt='Kleinrock' className='Speaker'></img>
           <p>Leslie Lamport</p>
 
+          <p className="Bio">Creator of the TeX computer typesetting system, the related METAFONT font definition language and rendering system, and the Computer Modern family of typefaces.</p>
+
+
           <div class="center-bottom-box">
             <a href="your-link-here">Learn more</a>
           </div>
@@ -123,6 +141,9 @@ const Speakers = () => {
         <div class="speaker-container">
           <img src={Spinolla} alt='Kleinrock' className='Speaker'></img>
           <p>Adrian Espinola</p>
+
+          <p className="Bio">Creator of the TeX computer typesetting system, the related METAFONT font definition language and rendering system, and the Computer Modern family of typefaces.</p>
+
 
           <div class="center-bottom-box">
             <a href="your-link-here">Learn more</a>
