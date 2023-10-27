@@ -1,27 +1,41 @@
+/* Set the HTML and body elements to fill the entire viewport height. */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* Create a container that fills the remaining vertical space. */
+#app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Make sure the footer stays at the bottom. */
 .Footer {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background: white;
-    padding: 10px;
-    color: white;
-    margin: 20px 40px;
-  }
-  
-  .imagen-footer {
-    width: 15%;
-    height: auto;
-    display: block;
-  }
-  
-  .left {
-    text-align: left;
-  }
-  
-  .right {
-    text-align: right;
-    white-space: nowrap;
-    font-size: 18px; 
-    color: black; 
-    font-weight: bold; 
-  }
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: white;
+  padding: 10px;
+  color: black; /* Change text color to make it visible on a white background. */
+}
+
+.imagen-footer {
+  width: 15%;
+  height: auto;
+  display: block;
+}
+
+.left {
+  text-align: left;
+}
+
+.right {
+  text-align: right;
+  white-space: nowrap;
+  font-size: 18px;
+  font-weight: bold;
+}
