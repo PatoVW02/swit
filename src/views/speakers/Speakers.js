@@ -32,7 +32,7 @@ const Speakers = () => {
       <body className="axe">
         <div class="speaker-container">
           <img src={DKnuth} alt='Knuth' className='Speaker'></img>
-          <p>Donald Knuth</p>
+          <p  className="Name">Donald Knuth</p>
           <p className="Bio">Creator of the TeX computer typesetting system, the related METAFONT font definition language and rendering system, and the Computer Modern family of typefaces.</p>
 
           <div class="center-bottom-box">
@@ -43,7 +43,7 @@ const Speakers = () => {
 
         <div class="speaker-container">
           <img src={VCerf} alt='Cerf' className='Speaker'></img>
-          <p>Vint Cerf</p>
+          <p  className="Name">Vint Cerf</p>
           <p className="Bio">Creator of the TeX computer typesetting system, the related METAFONT font definition language and rendering system, and the Computer Modern family of typefaces.</p>
 
           <div class="center-bottom-box">
@@ -54,7 +54,7 @@ const Speakers = () => {
 
         <div class="speaker-container">
           <img src={Kleinrock} alt='Kleinrock' className='Speaker'></img>
-          <p>Leonard Kleinrock</p>
+          <p  className="Name">Leonard Kleinrock</p>
           <p className="Bio">Creator of the TeX computer typesetting system, the related METAFONT font definition language and rendering system, and the Computer Modern family of typefaces.</p>
           <div class="center-bottom-box">
             <a href="your-link-here">Learn more</a>
@@ -64,7 +64,7 @@ const Speakers = () => {
 
         <div class="speaker-container">
           <img src={Gamal} alt='Kleinrock' className='Speaker'></img>
-          <p>Taher ElGamal</p>
+          <p  className="Name">Taher ElGamal</p>
 
           <p className="Bio">Creator of the TeX computer typesetting system, the related METAFONT font definition language and rendering system, and the Computer Modern family of typefaces.</p>
           
@@ -78,7 +78,7 @@ const Speakers = () => {
 
         <div class="speaker-container">
           <img src={Metcalfe} alt='Kleinrock' className='Speaker'></img>
-          <p>Robert Metcalfe</p>
+          <p  className="Name">Robert Metcalfe</p>
 
           <p className="Bio">Creator of the TeX computer typesetting system, the related METAFONT font definition language and rendering system, and the Computer Modern family of typefaces.</p>
 
@@ -90,7 +90,7 @@ const Speakers = () => {
 
         <div class="speaker-container">
           <img src={Ullman} alt='Kleinrock' className='Speaker'></img>
-          <p>Jeffrey Ullman</p>
+          <p  className="Name">Jeffrey Ullman</p>
 
           <p className="Bio">Creator of the TeX computer typesetting system, the related METAFONT font definition language and rendering system, and the Computer Modern family of typefaces.</p>
 
@@ -104,7 +104,7 @@ const Speakers = () => {
 
         <div class="speaker-container">
           <img src={Crocker} alt='Kleinrock' className='Speaker'></img>
-          <p>Steve Crocker</p>
+          <p  className="Name">Steve Crocker</p>
 
           <p className="Bio">Creator of the TeX computer typesetting system, the related METAFONT font definition language and rendering system, and the Computer Modern family of typefaces.</p>
 
@@ -116,7 +116,7 @@ const Speakers = () => {
 
         <div class="speaker-container">
           <img src={Tibs} alt='Kleinrock' className='Speaker'></img>
-          <p>Robert Tibshirani</p>
+          <p  className="Name">Robert Tibshirani</p>
 
           <p className="Bio">Creator of the TeX computer typesetting system, the related METAFONT font definition language and rendering system, and the Computer Modern family of typefaces.</p>
 
@@ -128,7 +128,7 @@ const Speakers = () => {
 
         <div class="speaker-container">
           <img src={Lamp} alt='Kleinrock' className='Speaker'></img>
-          <p>Leslie Lamport</p>
+          <p  className="Name">Leslie Lamport</p>
 
           <p className="Bio">Creator of the TeX computer typesetting system, the related METAFONT font definition language and rendering system, and the Computer Modern family of typefaces.</p>
 
@@ -140,7 +140,7 @@ const Speakers = () => {
 
         <div class="speaker-container">
           <img src={Spinolla} alt='Kleinrock' className='Speaker'></img>
-          <p>Adrian Espinola</p>
+          <p  className="Name">Adrian Espinola</p>
 
           <p className="Bio">Creator of the TeX computer typesetting system, the related METAFONT font definition language and rendering system, and the Computer Modern family of typefaces.</p>
 

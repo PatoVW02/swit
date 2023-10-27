@@ -5,6 +5,14 @@
 
 }
 
+.Name {
+    color: #000;
+    font-family: Arial Rounded MT Bold;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+}
+
 .Title {
     position: absolute;
     bottom: 160px;
@@ -89,24 +97,31 @@
 
 .center-bottom-box {
     background-color: #EEEEEE;
-    color: #000; /* Change the text color to black */
+    color: #000;
+    /* Change the text color to black */
     padding: 10px;
     text-align: center;
     height: 50px;
     border: 2px solid black;
-    display: flex; /* Use flex display */
-    align-items: center; /* Vertically center the content */
-    justify-content: center; /* Horizontally center the content */
-  }
-  
-  .center-bottom-box a {
-    color: black; /* Link color */
-    text-decoration: none; /* Remove underline from the link */
-    margin-left: 10px; /* Add some spacing between the text and the link */
+    display: flex;
+    /* Use flex display */
+    align-items: center;
+    /* Vertically center the content */
+    justify-content: center;
+    /* Horizontally center the content */
+}
+
+.center-bottom-box a {
+    color: black;
+    /* Link color */
+    text-decoration: none;
+    /* Remove underline from the link */
+    margin-left: 10px;
+    /* Add some spacing between the text and the link */
     text-align: center;
     font-family: Poppins;
     font-size: 28px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-  }
+}
