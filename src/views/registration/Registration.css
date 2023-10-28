@@ -1,3 +1,10 @@
+.centered-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%; /* Ajusta la altura si es necesario */
+}
+
 .container {
     position: relative;
     width: 100%; 
