@@ -34,8 +34,6 @@ const Home = () => {
       </header>
 
       <br />
-      <br />
-      <br />
 
       <body>
         <Stack
@@ -47,7 +45,7 @@ const Home = () => {
             justifyContent: "center",
           }}
         >
-          <Typography variant="h5" component="h5">
+          <Typography variant="h4" component="h4">
             For suggestions and feedback please send an email
           </Typography>
           <Button
