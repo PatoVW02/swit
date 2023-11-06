@@ -16,12 +16,9 @@ const Home = () => {
     <div className="Home">
       <header>
         <div className="header-container">
-          <img
-            className="header-container"
-            style={{ width: "100%", height: "55vh" }}
-            src={Banner}
-            alt="Hombres de Gigantes"
-          />
+          <div className="image-overlay">
+            <img className="header-image" src={Banner} alt="Home Banner" />
+          </div>
           <h1 className="header-title">Home</h1>
         </div>
       </header>
@@ -29,31 +26,6 @@ const Home = () => {
       <br />
 
       <body>
-        <Stack
-          spacing={2}
-          style={{
-            display: "flex",
-            flexDirection: "column",
-            alignItems: "center",
-            justifyContent: "center",
-          }}
-        >
-          <Typography variant="h4" component="h4">
-            Register to Our Upcoming Talks!
-          </Typography>
-          <Button
-            variant="contained"
-            style={{ width: "20rem", backgroundColor: "#303033" }}
-            href="/registration"
-          >
-            Register Now!
-          </Button>
-        </Stack>
-
-        <br />
-        <hr />
-        <br />
-
         <div>
           <Typography
             variant="h4"
@@ -65,7 +37,7 @@ const Home = () => {
               justifyContent: "center",
             }}
           >
-            An awesome experience!
+            ¡Una experiencia inolvidable y para recordar!
           </Typography>
 
           <Grid container spacing={2} style={{ padding: "3rem" }}>
@@ -132,6 +104,34 @@ const Home = () => {
           </Grid>
         </div>
 
+        <br />
+        <hr />
+        <br />
+
+        <Stack
+          spacing={2}
+          style={{
+            display: "flex",
+            flexDirection: "column",
+            alignItems: "center",
+            justifyContent: "center",
+          }}
+        >
+          <Typography variant="h4" component="h4">
+            ¡Registrate a nuestros proximos eventos!
+          </Typography>
+          <Button
+            variant="contained"
+            style={{ width: "20rem", backgroundColor: "#303033" }}
+            href="/registration"
+          >
+            Registrar Ahora
+          </Button>
+        </Stack>
+
+        <br />
+        <br />
+
         <Paper
           style={{
             backgroundColor: "#303033",
@@ -146,17 +146,17 @@ const Home = () => {
             }}
           >
             <Typography variant="h5">
-              SWIT is an initiative hosted by the Department of Computer Science
-              at Tecnológico de Monterrey to inspire engineering students
-              through talks by IT experts on their historical contributions and
-              success stories.
+              SWIT es una iniciativa del Departamento de Ciencias de la
+              Computación del Tecnológico de Monterrey para inspirar a
+              estudiantes de ingeniería a través de charlas de expertos en TI
+              sobre sus contribuciones históricas y casos de éxito.
             </Typography>
             <br />
             <Typography variant="h5">
-              We have previously welcomed several personalities, such as Vint
-              Cerf, Robert Metcalfe, Robert Tibshirani, Steve Crocker, and
-              Jeffrey Ullman. To date, we have had over 300 attendees
-              nationwide.
+              Anteriormente hemos dado la bienvenida a varias personalidades,
+              como Vint Cerf, Robert Metcalfe, Robert Tibshirani, Steve Crocker
+              y Jeffrey Ullman. Hasta la fecha, hemos tenido más de 300
+              asistentes en todo el país.
             </Typography>
           </div>
         </Paper>

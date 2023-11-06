@@ -1,3 +1,7 @@
+.Registration {
+  background-color: seashell;
+}
+
 .centered-form {
   display: flex;
   justify-content: center;
@@ -7,16 +11,16 @@
 
 .container {
     position: relative;
-    width: 100%; 
+    width: 100%;
     max-width: 100%;
   }
-  
+
   .background-image {
     display: block;
     width: 100%;
     height: auto;
   }
-  
+
   .registration-title{
     margin: 0;
     position: absolute;
@@ -34,11 +38,11 @@
 }
 
 .welcome-rectangle {
-  background-color: #4c5442; 
-  width: 100%; 
-  text-align: center; 
-  color: white; 
-  font-size: 50px; 
+  background-color: #4c5442;
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-size: 50px;
   font-weight: 700;
-  padding: 40px 0; 
+  padding: 40px 0;
 }

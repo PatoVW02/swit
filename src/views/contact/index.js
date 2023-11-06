@@ -1,4 +1,4 @@
-import Banner from "../../assets/home-banner.jpg";
+import Banner from "../../assets/contact-banner.jpg";
 import PanoramaITESM from "../../assets/Panorama_ITESM.jpg";
 import { GoogleMap, LoadScript, Marker } from "@react-google-maps/api";
 import Typography from "@mui/material/Typography";
@@ -23,12 +23,10 @@ const Home = () => {
   return (
     <div className="Contact">
       <header>
-        <div className="header-container" variant="outlined">
-          <img
-            style={{ width: "100%", height: "55vh" }}
-            src={Banner}
-            alt="Contact Us Banner"
-          />
+        <div className="header-container">
+          <div className="image-overlay">
+            <img className="header-image" src={Banner} alt="Contact Us Banner" />
+          </div>
           <h1 className="header-title">Contact Us</h1>
         </div>
       </header>
@@ -45,14 +43,14 @@ const Home = () => {
             justifyContent: "center",
           }}
         >
-          <Typography variant="h4" component="h4">
-            For suggestions and feedback please send an email
+          <Typography variant="h5" component="h4">
+            Si tienes sugerencias o retroalimentación, no dudes en contactarnos.
           </Typography>
           <Button
             variant="contained"
             style={{ width: "20rem", backgroundColor: "#303033" }}
           >
-            Send Email
+            Enviar Correo
           </Button>
         </Stack>
 
