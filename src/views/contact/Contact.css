@@ -1,0 +1,22 @@
+.Contact {
+    background-color: aliceblue;
+}
+
+.header-container {
+    width: 100%;
+    max-width: 100%;
+    position: relative;
+    text-align: center;
+}
+
+.header-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 5em;
+    color: white;
+    text-shadow: 2px 2px 4px black;
+    border: 0.3rem solid #f1f1f1;
+    padding: 1rem;
+}

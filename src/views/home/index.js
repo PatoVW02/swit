@@ -1,4 +1,4 @@
-import BigImage from "../../assets/home-banner.jpg";
+import Banner from "../../assets/home-banner.jpg";
 import ComputerScience from "../../assets/Computer-Science.jpg";
 import Cybersecurity from "../../assets/Cybersecurity.jpg";
 import DataScience from "../../assets/Data-Science.jpg";
@@ -8,20 +8,22 @@ import Typography from "@mui/material/Typography";
 import Paper from "@mui/material/Paper";
 import Grid from "@mui/material/Grid";
 import Container from "@mui/material/Container";
+
 import "./Home.css";
 
 const Home = () => {
   return (
     <div className="Home">
       <header>
-        <Paper className="header-container" variant="outlined">
+        <div className="header-container">
           <img
-            style={{ width: "100%", height: '55vh' }}
-            src={BigImage}
+            className="header-container"
+            style={{ width: "100%", height: "55vh" }}
+            src={Banner}
             alt="Hombres de Gigantes"
           />
           <h1 className="header-title">Home</h1>
-        </Paper>
+        </div>
       </header>
 
       <br />
@@ -37,9 +39,13 @@ const Home = () => {
           }}
         >
           <Typography variant="h4" component="h4">
-            Upcoming Talks!
+            Register to Our Upcoming Talks!
           </Typography>
-          <Button variant="contained" style={{ width: "20rem" }}>
+          <Button
+            variant="contained"
+            style={{ width: "20rem", backgroundColor: "#303033" }}
+            href="/registration"
+          >
             Register Now!
           </Button>
         </Stack>
