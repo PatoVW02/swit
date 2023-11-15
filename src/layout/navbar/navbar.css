@@ -1,4 +1,13 @@
-.navbar {
+@import url('https://fonts.googleapis.com/css2?family=Sora&display=swap');
+
+/*.NavLink {
+  font-family: 'Sora', sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}*/
+
+/*.navbar {
   background-color: #333;
   display: flex;
   justify-content: space-around;
@@ -26,4 +35,4 @@
 .navbar-item a.active {
   background-color: #555;
   border-radius: 4px;
-}
+}*/
