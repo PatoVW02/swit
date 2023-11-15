@@ -13,7 +13,7 @@
 
 .Title {
     position: absolute;
-    bottom: 160px;
+    bottom: 240px;
     left: 9.8%;
     width: 534px;
     height: 145px;
@@ -27,7 +27,7 @@
 }
 
 .BigPic {
-    width: 1346px;
+    width: 100%;
     height: 400px;
 
     flex-shrink: 0;
