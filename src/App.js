@@ -8,14 +8,40 @@ import Contact from "./views/contact";
 const App = () => {
   return (
     <BrowserRouter>
-      <Layout>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/speakers" element={<Speakers />} />
-          <Route path="/registration" element={<Registration />} />
-          <Route path="/contact" element={<Contact />} />
-        </Routes>
-      </Layout>
+      <Routes>
+        <Route
+          path="/"
+          element={
+            <Layout>
+              <Home />
+            </Layout>
+          }
+        />
+        <Route
+          path="/speakers"
+          element={
+            <Layout>
+              <Speakers />
+            </Layout>
+          }
+        />
+        <Route
+          path="/registration"
+          element={
+            <Layout>
+              <Registration />
+            </Layout>
+          }
+        />
+        <Route
+          path="/contact"
+          element={
+            <Layout>
+              <Contact />
+            </Layout>
+          }
+        />
+      </Routes>
     </BrowserRouter>
   );
 };

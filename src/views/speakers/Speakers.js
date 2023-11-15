@@ -36,7 +36,7 @@ const Speakers = () => {
           <p className="Bio">Creator of the TeX computer typesetting system, the related METAFONT font definition language and rendering system, and the Computer Modern family of typefaces.</p>
 
           <div class="center-bottom-box">
-            <a href="your-link-here">Watch conference</a>
+            <a href="https://youtube.com/live/wXHkMGsZQYw">Watch conference</a>
           </div>
 
         </div>
