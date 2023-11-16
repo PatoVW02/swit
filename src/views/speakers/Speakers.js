@@ -68,6 +68,11 @@ const Speakers = () => {
                   <Typography variant="body2" color="text.secondary">
                     {speaker.description}
                   </Typography>
+                  <br/>
+                  <Typography variant="caption" color="text.secondary">
+                    <b>Conference Date: </b>
+                    {speaker.dateTalk.toDate().toDateString()}
+                  </Typography>
                 </CardContent>
                 <CardActions
                   disableSpacing
