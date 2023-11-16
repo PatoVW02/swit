@@ -4,6 +4,7 @@ import Home from "./views/home";
 import Speakers from "./views/speakers/Speakers";
 import Registration from "./views/registration/Registration";
 import Contact from "./views/contact";
+import AdminView from "./views/admin";
 
 const App = () => {
   return (
@@ -25,7 +26,7 @@ const App = () => {
             </Layout>
           }
         />
-        
+
         <Route
           path="/registration"
           element={
@@ -39,6 +40,15 @@ const App = () => {
           element={
             <Layout>
               <Contact />
+            </Layout>
+          }
+        />
+
+        <Route
+          path="/admin-4b8d6473-5e4d-4051-b90b-f8332c08fda8"
+          element={
+            <Layout>
+              <AdminView />
             </Layout>
           }
         />
