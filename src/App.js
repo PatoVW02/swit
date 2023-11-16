@@ -25,6 +25,7 @@ const App = () => {
             </Layout>
           }
         />
+        
         <Route
           path="/registration"
           element={
