@@ -47,7 +47,7 @@ const Speakers = () => {
           <p className="Bio">Creator of the TeX computer typesetting system, the related METAFONT font definition language and rendering system, and the Computer Modern family of typefaces.</p>
 
           <div class="center-bottom-box">
-            <a href="your-link-here">Watch conference</a>
+            <a href="https://youtu.be/k2r-7cLIaDQ">Watch conference</a>
           </div>
 
         </div>
@@ -57,7 +57,7 @@ const Speakers = () => {
           <p  className="Name">Leonard Kleinrock</p>
           <p className="Bio">Creator of the TeX computer typesetting system, the related METAFONT font definition language and rendering system, and the Computer Modern family of typefaces.</p>
           <div class="center-bottom-box">
-            <a href="your-link-here">Watch conference</a>
+            <a href="https://youtu.be/eUFBpY2qqj8">Watch conference</a>
           </div>
 
         </div>
@@ -70,7 +70,7 @@ const Speakers = () => {
           
 
           <div class="center-bottom-box">
-            <a href="your-link-here">Watch conference</a>
+            <a href="https://youtu.be/NVwm_8HAF3s">Watch conference</a>
           </div>
         </div>
 
@@ -84,7 +84,7 @@ const Speakers = () => {
 
 
           <div class="center-bottom-box">
-            <a href="your-link-here">Watch conference</a>
+            <a href="https://youtu.be/J8SJqStADVY">Watch conference</a>
           </div>
         </div>
 
@@ -96,7 +96,7 @@ const Speakers = () => {
 
 
           <div class="center-bottom-box">
-            <a href="your-link-here">Watch conference</a>
+            <a href="https://youtu.be/dBkj09zdZ3s">Watch conference</a>
           </div>
 
           
@@ -110,7 +110,7 @@ const Speakers = () => {
 
 
           <div class="center-bottom-box">
-            <a href="your-link-here">Watch conference</a>
+            <a href="https://youtu.be/BW__Wx8diiE">Watch conference</a>
           </div>
         </div>
 
@@ -122,7 +122,7 @@ const Speakers = () => {
 
 
           <div class="center-bottom-box">
-            <a href="your-link-here">Watch conference</a>
+            <a href="https://youtu.be/OCzcjrxQVZY">Watch conference</a>
           </div>
         </div>
 
@@ -134,7 +134,7 @@ const Speakers = () => {
 
 
           <div class="center-bottom-box">
-            <a href="your-link-here">Watch conference</a>
+            <a href="https://youtu.be/_AwBi9MzwHI">Watch conference</a>
           </div>
         </div>
 
@@ -146,7 +146,7 @@ const Speakers = () => {
 
 
           <div class="center-bottom-box">
-            <a href="your-link-here">Watch conference</a>
+            <a href="https://youtu.be/fow5h2U4ApY">Watch conference</a>
           </div>
         </div>
 
