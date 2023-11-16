@@ -1,38 +1,33 @@
 import React from 'react';
+import logo from '../../assets/logo.png';
 import './navbar.css'
 import {
   Nav,
   NavLink,
   Bars,
   NavMenu,
-  NavBtn,
-  NavBtnLink
 } from './NavbarElements';
 
 const Navbar = () => {
   return (
     <>
       <Nav>
-      <NavLink to="/" exact activeClassName="active">
-            Home
-          </NavLink>
+        <NavLink to="/" exact activeClassName="active">
+          <img src={logo} alt="Home" style={{ height: "3rem" }} />
+        </NavLink>
         <Bars />
         <NavMenu>
-          <NavLink to='/speakers' activeStyle>
+          <NavLink to="/speakers" activeStyle>
             Speakers
           </NavLink>
-          
 
-          <NavLink to='/registration' activeStyle>
+          <NavLink to="/registration" activeStyle>
             Registration
           </NavLink>
-          <NavLink to='/contact' activeStyle>
+          <NavLink to="/contact" activeStyle>
             Contact
           </NavLink>
-          
-          
         </NavMenu>
-        
       </Nav>
     </>
   );
