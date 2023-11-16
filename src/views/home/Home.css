@@ -1,41 +1,36 @@
-.Home {
-    background-color: seashell;
-}
-
-.header-container {
+.header-container-home {
     width: 100%;
     max-width: 100%;
     position: relative;
     text-align: center;
 }
 
-.header-title {
-    position: relative; /* Ensure text remains on top */
-    z-index: 2; /* Make sure text is above the overlay */
-    top: 40%;
-    left: 50%;
+.header-title-home {
+    position: absolute;
+    z-index: 2;
+    top: 60%;
+    left: 15%;
     transform: translate(-50%, -50%);
     font-size: 5em;
     color: white;
     text-shadow: 2px 2px 4px black;
-    border: 0.3rem solid #f1f1f1;
     padding: 1rem;
 }
 
-.header-image {
+.header-image-home {
   width: 100%;
   height: 55vh;
   object-fit: cover;
 }
 
-.image-overlay {
+.image-overlay-home {
   position: relative;
   width: 100%;
   height: 55vh;
   overflow: hidden;
 }
 
-.image-overlay::before {
+.image-overlay-home::before {
   content: "";
   background: rgba(0, 0, 0, 0.5); /* Black overlay with 50% transparency */
   position: absolute;

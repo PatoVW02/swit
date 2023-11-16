@@ -5,11 +5,11 @@ const Registration = () => {
   return (
     <div className="Registration">
       <header>
-        <div className="header-container">
-          <div className="image-overlay">
-            <img className="header-image" src={Banner} alt="Registration Banner" />
+        <div className="header-container-registration">
+          <div className="image-overlay-registration">
+            <img className="header-image-registration" src={Banner} alt="Registration Banner" />
           </div>
-          <h1 className="header-title">Registration</h1>
+          <h1 className="header-title-registration">Registration</h1>
         </div>
       </header>
 

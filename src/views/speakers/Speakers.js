@@ -6,10 +6,10 @@ import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
 import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
-import { Link } from 'react-router-dom';
+import { Link } from "react-router-dom";
 import { db } from "../../utils/firebase";
 
-import "./Speakers.css"
+import "./Speakers.css";
 
 const Speakers = () => {
   const [speakers, setSpeakers] = useState([]);
@@ -28,9 +28,21 @@ const Speakers = () => {
 
   return (
     <div className="Speakers">
-      <h1 className="Title">Speakers</h1>
-      <img src={BigImage} alt="background" className="BigPic"></img>
-      <p></p>
+      <header>
+        <div className="header-container-speakers">
+          <div className="image-overlay-speakers">
+            <img
+              className="header-image-speakers"
+              src={BigImage}
+              alt="Speakers Banner"
+            />
+          </div>
+          <h1 className="header-title-speakers">Speakers</h1>
+        </div>
+      </header>
+
+      <br />
+      <br />
 
       <h2 className="Descripcion">
         Aquí encontramos individuos pioneros en las ciencias computacionales y
@@ -68,7 +80,7 @@ const Speakers = () => {
                   <Typography variant="body2" color="text.secondary">
                     {speaker.description}
                   </Typography>
-                  <br/>
+                  <br />
                   <Typography variant="caption" color="text.secondary">
                     <b>Conference Date: </b>
                     {speaker.dateTalk.toDate().toDateString()}
@@ -103,6 +115,9 @@ const Speakers = () => {
           })}
         </div>
       )}
+
+      <br />
+      <br />
     </div>
   );
 };

@@ -23,11 +23,11 @@ const Home = () => {
   return (
     <div className="Contact">
       <header>
-        <div className="header-container">
-          <div className="image-overlay">
-            <img className="header-image" src={Banner} alt="Contact Us Banner" />
+        <div className="header-container-contact">
+          <div className="image-overlay-contact">
+            <img className="header-image-contact" src={Banner} alt="Contact Us Banner" />
           </div>
-          <h1 className="header-title">Contact Us</h1>
+          <h1 className="header-title-contact">Contact Us</h1>
         </div>
       </header>
 

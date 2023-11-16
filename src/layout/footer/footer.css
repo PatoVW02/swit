@@ -17,9 +17,9 @@ html, body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: seashell;
+  background: #023047;
   padding: 10px;
-  color: black;
+  color: white;
   padding-bottom: 2rem;
   padding-left: 5rem;
   padding-right: 5rem;

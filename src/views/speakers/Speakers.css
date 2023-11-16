@@ -1,6 +1,5 @@
 .Speakers {
     aspect-ratio: 16/9;
-    background-color: seashell;
 }
 
 .Name {
@@ -122,4 +121,47 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+}
+
+.header-container-speakers {
+    width: 100%;
+    max-width: 100%;
+    position: relative;
+    text-align: center;
+}
+
+.header-title-speakers {
+    position: absolute;
+    z-index: 2;
+    top: 60%;
+    left: 15%;
+    transform: translate(-50%, -50%);
+    font-size: 5em;
+    color: white;
+    text-shadow: 2px 2px 4px black;
+    padding: 1rem;
+}
+
+.header-image-speakers {
+  width: 100%;
+  height: 55vh;
+  object-fit: cover;
+}
+
+.image-overlay-speakers {
+  position: relative;
+  width: 100%;
+  height: 55vh;
+  overflow: hidden;
+}
+
+.image-overlay-speakers::before {
+  content: "";
+  background: rgba(0, 0, 0, 0.5); /* Black overlay with 50% transparency */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1; /* Ensure the overlay is on top of the image */
 }

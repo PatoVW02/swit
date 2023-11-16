@@ -12,14 +12,21 @@ import Container from "@mui/material/Container";
 import "./Home.css";
 
 const Home = () => {
+  const imageStyle = {
+    maxWidth: "100%",
+    borderRadius: "20px", // Adjust the border radius as desired
+  };
+
   return (
     <div className="Home">
       <header>
-        <div className="header-container">
-          <div className="image-overlay">
-            <img className="header-image" src={Banner} alt="Home Banner" />
+        <div className="header-container-home">
+          <div className="image-overlay-home">
+            <img className="header-image-home" src={Banner} alt="Home Banner" />
           </div>
-          <h1 className="header-title">Home</h1>
+          <h1 className="header-title-home">
+            Explora el Futuro de la Tecnología
+          </h1>
         </div>
       </header>
 
@@ -37,69 +44,109 @@ const Home = () => {
               justifyContent: "center",
             }}
           >
-            ¡Una experiencia inolvidable y para recordar!
+            Una experiencia enriquecedora en el mundo de la tecnología y la
+            innovación.
           </Typography>
 
           <Grid container spacing={2} style={{ padding: "3rem" }}>
             <Grid item xs={12} sm={6} md={4}>
-              <Container>
-                <img
-                  src={ComputerScience}
-                  alt="Computer Science"
-                  style={{ maxWidth: "100%" }}
-                  className="experience-image"
-                />
-                <Typography
-                  variant="h5"
-                  style={{
-                    alignContent: "center",
-                    textAlign: "center",
-                    paddingTop: "1rem",
-                  }}
-                >
-                  Computer Science
-                </Typography>
-              </Container>
+              <Paper
+                style={{
+                  padding: "1rem",
+                  borderRadius: "15px",
+                  background: "#023047",
+                }}
+              >
+                <Container>
+                  <img
+                    src={ComputerScience}
+                    alt="Computer Science"
+                    style={imageStyle}
+                    className="experience-image"
+                  />
+                  <Typography
+                    variant="h5"
+                    style={{
+                      alignContent: "center",
+                      textAlign: "center",
+                      paddingTop: "1rem",
+                      color: "white",
+                    }}
+                  >
+                    Únete a nuestra exploración de Ciencias de la Computación
+                    para descubrir cómo la innovación tecnológica está forjando
+                    el camino hacia el futuro. Aprende sobre desarrollos
+                    pioneros en inteligencia artificial, computación en la nube
+                    y software avanzado.
+                  </Typography>
+                </Container>
+              </Paper>
             </Grid>
             <Grid item xs={12} sm={6} md={4}>
-              <Container>
-                <img
-                  src={Cybersecurity}
-                  alt="Cybersecurity"
-                  style={{ maxWidth: "100%" }}
-                  className="experience-image"
-                />
-                <Typography
-                  variant="h5"
-                  style={{
-                    alignContent: "center",
-                    textAlign: "center",
-                    paddingTop: "1rem",
-                  }}
-                >
-                  Cybersecurity
-                </Typography>
-              </Container>
+              <Paper
+                style={{
+                  padding: "1rem",
+                  borderRadius: "15px",
+                  background: "#023047",
+                }}
+              >
+                <Container>
+                  <img
+                    src={Cybersecurity}
+                    alt="Cybersecurity"
+                    style={imageStyle}
+                    className="experience-image"
+                  />
+                  <Typography
+                    variant="h5"
+                    style={{
+                      alignContent: "center",
+                      textAlign: "center",
+                      paddingTop: "1rem",
+                      color: "white",
+                    }}
+                  >
+                    Adéntrate en el campo de la ciberseguridad, donde expertos
+                    te enseñarán a proteger infraestructuras críticas y datos
+                    valiosos contra amenazas digitales. Aprende sobre las
+                    últimas estrategias defensivas y cómo la seguridad
+                    cibernética es esencial en el mundo conectado de hoy.
+                  </Typography>
+                </Container>
+              </Paper>
             </Grid>
             <Grid item xs={12} sm={6} md={4}>
-              <Container>
-                <img
-                  src={DataScience}
-                  alt="Data Science"
-                  style={{ maxWidth: "100%" }}
-                  className="experience-image"
-                />
-                <Typography
-                  variant="h5"
-                  style={{
-                    alignContent: "center",
-                    textAlign: "center",
-                    paddingTop: "1rem",
-                  }}
-                >
-                  Data Science
-                </Typography>
-              </Container>
+              <Paper
+                style={{
+                  padding: "1rem",
+                  borderRadius: "15px",
+                  background: "#023047",
+                }}
+              >
+                <Container>
+                  <img
+                    src={DataScience}
+                    alt="Data Science"
+                    style={imageStyle}
+                    className="experience-image"
+                  />
+                  <Typography
+                    variant="h5"
+                    style={{
+                      alignContent: "center",
+                      textAlign: "center",
+                      paddingTop: "1rem",
+                      color: "white",
+                    }}
+                  >
+                    Explora el mundo del análisis de datos en nuestra sección de
+                    Data Science. Descubre cómo los científicos de datos
+                    transforman grandes volúmenes de información en insights
+                    accionables y conducen la toma de decisiones basada en datos
+                    en todas las industrias.
+                  </Typography>
+                </Container>
+              </Paper>
             </Grid>
           </Grid>
         </div>
@@ -118,14 +165,14 @@ const Home = () => {
           }}
         >
           <Typography variant="h4" component="h4">
-            ¡Registrate a nuestros proximos eventos!
+            Únete a los líderes de la industria en nuestro próximo evento.
           </Typography>
           <Button
             variant="contained"
             style={{ width: "20rem", backgroundColor: "#303033" }}
             href="/registration"
           >
-            Registrar Ahora
+            Únete Ahora
           </Button>
         </Stack>
 
@@ -134,7 +181,7 @@ const Home = () => {
 
         <Paper
           style={{
-            backgroundColor: "#303033",
+            backgroundColor: "#023047",
             padding: "2rem",
           }}
         >
@@ -160,9 +207,6 @@ const Home = () => {
             </Typography>
           </div>
         </Paper>
-
-        <br />
-        <br />
       </body>
     </div>
   );
