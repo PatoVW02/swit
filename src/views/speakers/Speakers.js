@@ -67,6 +67,8 @@ const Speakers = () => {
         <div className="axe">
           {speakers.map((speaker) => {
             return (
+        <div class="speaker-container">
+
               <Card sx={{ maxWidth: 345 }} style={{ marginTop: "2rem" }}>
                 <CardMedia
                   sx={{ height: 260 }}
@@ -81,10 +83,10 @@ const Speakers = () => {
                     {speaker.description}
                   </Typography>
                   <br />
-                  <Typography variant="caption" color="text.secondary">
+                  {/*<Typography variant="caption" color="text.secondary">
                     <b>Conference Date: </b>
                     {speaker.dateTalk.toDate().toDateString()}
-                  </Typography>
+                  </Typography>*/}
                 </CardContent>
                 <CardActions
                   disableSpacing
@@ -111,6 +113,7 @@ const Speakers = () => {
                   </Link>
                 </CardActions>
               </Card>
+              </div>
             );
           })}
         </div>
