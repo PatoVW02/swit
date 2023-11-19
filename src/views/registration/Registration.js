@@ -19,7 +19,7 @@ const Registration = () => {
 
       <div className="centered-form" style={{ marginTop: "30px" }}>
         <iframe
-          src="https://docs.google.com/forms/d/e/1FAIpQLSd57AA1e-oKdev3fPk2UNVODxYqIEE9kHEVqCe8pXcqhnpnPg/viewform?usp=sf_link"
+          src="https://docs.google.com/forms/d/e/1FAIpQLSfwupogW8jl75O7h2XnFgqUVwbWTnnngTbRjsRBdTTHCgDMnA/viewform?usp=sf_link"
           width="50%"
           height="950"
           frameBorder="0"

@@ -19,31 +19,39 @@ export const NavLink = styled(Link)`
   display: flex;
   align-items: center;
   text-decoration: none;
-  padding: 0 1rem;
+  padding: 0 1.5rem;
   height: 100%;
   cursor: pointer;
   font-family: "Sora", sans-serif;
   box-sizing: border-box;
   margin: 0;
 
+  margin-right: 1rem;
   transition: all 0.3s ease-in-out;
 
   &.active {
     color: #15cdfc;
     background-color: #066;
     color: #fff;
+    border-radius: 0.3rem;
   }
 
   &:hover {
     transform: scale(1.1);
     background-color: #066;
+    border-radius: 0.3rem;
     color: #fff;
   }
 
-  &.logo-link {
+  &.logo {
     &:hover, &.active {
+      background-color: transparent;
       transform: none;
     }
+  }
+
+  @media (max-width: 768px) {
+    padding: 0 1rem;
   }
 `;
 

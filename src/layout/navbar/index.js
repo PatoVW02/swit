@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../../assets/logo.png';
+import logo from '../../assets/logo.jpeg';
 import './navbar.css'
 import {
   Nav,
@@ -12,7 +12,7 @@ const Navbar = () => {
   return (
     <>
       <Nav>
-        <NavLink to="/" exact className="logo-link">
+        <NavLink to="/" exact className="logo">
           <img src={logo} alt="Home" style={{ height: "3rem" }} />
         </NavLink>
         <Bars />
