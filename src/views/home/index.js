@@ -30,18 +30,22 @@ const Home = () => {
         </div>
       </header>
 
-      <br />
-
       <body>
         <div>
           <Typography
-            variant="h4"
-            component="h4"
+            variant="h5"
+            component="h5"
             style={{
+              paddingLeft: "4rem",
               display: "flex",
               flexDirection: "column",
               alignItems: "center",
               justifyContent: "center",
+              backgroundColor: "#023047",
+              margin: "0rem 0rem 0rem 0rem",
+              paddingTop: "1rem",
+              paddingBottom: "1rem",
+              color: "white",
             }}
           >
             Una experiencia enriquecedora en el mundo de la tecnología y la

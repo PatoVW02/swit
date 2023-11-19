@@ -37,19 +37,26 @@ const Speakers = () => {
               alt="Speakers Banner"
             />
           </div>
-          <h1 className="header-title-speakers">Speakers</h1>
+          <h1 className="header-title-speakers">Conferencistas</h1>
         </div>
       </header>
 
-      <br />
-      <br />
-
-      <h2 className="Descripcion">
+      <Typography
+        variant="h5"
+        component="h5"
+        style={{
+          paddingLeft: "4rem",
+          backgroundColor: "#023047",
+          margin: "0rem 0rem 0rem 0rem",
+          paddingTop: "1rem",
+          paddingBottom: "1rem",
+          color: "white",
+        }}
+      >
         Aquí encontramos individuos pioneros en las ciencias computacionales y
         líderes cuyas contribuciones colectivamente, han formado el mundo actual
         y la era digital en la que vivimos.
-      </h2>
-      <p></p>
+      </Typography>
 
       <Typography
         variant="h6"
@@ -66,53 +73,78 @@ const Speakers = () => {
       {speakers.length > 0 && (
         <div className="axe">
           {speakers.map((speaker) => {
-            return (
-        <div class="speaker-container">
+            let content;
 
-              <Card sx={{ maxWidth: 345 }} style={{ marginTop: "2rem" }}>
-                <CardMedia
-                  sx={{ height: 260 }}
-                  image={speaker.photoUrl}
-                  title={speaker.name}
-                />
-                <CardContent>
-                  <Typography gutterBottom variant="h5" component="div">
-                    {speaker.name}
-                  </Typography>
-                  <Typography variant="body2" color="text.secondary">
-                    {speaker.description}
-                  </Typography>
-                  <br />
-                  {/*<Typography variant="caption" color="text.secondary">
-                    <b>Conference Date: </b>
-                    {speaker.dateTalk.toDate().toDateString()}
-                  </Typography>*/}
-                </CardContent>
-                <CardActions
-                  disableSpacing
+            if (speaker.dateTalk) {
+              const dateTalk = speaker.dateTalk.toDate();
+              const formattedDate = dateTalk.toLocaleDateString("en-US", {
+                year: "numeric",
+                month: "long",
+                day: "numeric",
+              });
+              content = formattedDate;
+            } else {
+              content = "N/A";
+            }
+
+            return (
+              <div class="speaker-container">
+                <Card
+                  className="card-hover-effect"
                   sx={{
                     display: "flex",
-                    justifyContent: "center",
-                    paddingBottom: "1.5rem",
+                    flexDirection: "column",
+                    maxWidth: 345,
+                    marginTop: "2rem",
+                    transition: "transform 0.3s ease-in-out", // Ensure smooth transition for the transform
                   }}
                 >
-                  <Link to={speaker.conferenceLink} target="_blank">
-                    <Button
-                      variant="contained"
-                      size="large"
-                      style={{
-                        backgroundColor: "white",
-                        borderRadius: 100,
-                        color: "black",
-                        fontWeight: 600,
-                        border: "1px solid black", // Add this line for the black border
-                      }}
-                    >
-                      Watch conference
-                    </Button>
-                  </Link>
-                </CardActions>
-              </Card>
+                  <CardMedia
+                    sx={{ height: 260 }}
+                    image={speaker.photoUrl}
+                    title={speaker.name}
+                  />
+                  <CardContent sx={{ flexGrow: 1 }}>
+                    <Typography gutterBottom variant="h5" component="div">
+                      {speaker.name}
+                    </Typography>
+                    <Typography variant="body2">
+                      {speaker.description}
+                    </Typography>
+                    <br />
+                    <Typography variant="caption">
+                      <b>Conference Date: </b>
+                      {content}
+                    </Typography>
+                  </CardContent>
+                  <CardActions
+                    disableSpacing
+                    sx={{
+                      display: "flex",
+                      justifyContent: "center",
+                      paddingBottom: "1.5rem",
+                      marginTop: "auto", // This ensures it sticks to the bottom
+                    }}
+                  >
+                    <Link to={speaker.conferenceLink} target="_blank">
+                      <Button
+                        variant="contained"
+                        size="large"
+                        style={{
+                          backgroundColor: "white",
+                          borderRadius: 100,
+                          color: "black",
+                          fontWeight: 600,
+                          border: "1px solid black",
+                        }}
+                      >
+                        <Typography variant="button">
+                          <b>Watch conference</b>
+                        </Typography>
+                      </Button>
+                    </Link>
+                  </CardActions>
+                </Card>
               </div>
             );
           })}

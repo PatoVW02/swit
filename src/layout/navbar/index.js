@@ -12,7 +12,7 @@ const Navbar = () => {
   return (
     <>
       <Nav>
-        <NavLink to="/" exact activeClassName="active">
+        <NavLink to="/" exact className="logo-link">
           <img src={logo} alt="Home" style={{ height: "3rem" }} />
         </NavLink>
         <Bars />

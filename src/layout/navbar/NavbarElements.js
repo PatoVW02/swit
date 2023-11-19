@@ -22,12 +22,28 @@ export const NavLink = styled(Link)`
   padding: 0 1rem;
   height: 100%;
   cursor: pointer;
-  font-family: 'Sora', sans-serif;
+  font-family: "Sora", sans-serif;
   box-sizing: border-box;
   margin: 0;
 
+  transition: all 0.3s ease-in-out;
+
   &.active {
     color: #15cdfc;
+    background-color: #066;
+    color: #fff;
+  }
+
+  &:hover {
+    transform: scale(1.1);
+    background-color: #066;
+    color: #fff;
+  }
+
+  &.logo-link {
+    &:hover, &.active {
+      transform: none;
+    }
   }
 `;
 

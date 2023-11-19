@@ -27,7 +27,7 @@ const Home = () => {
           <div className="image-overlay-contact">
             <img className="header-image-contact" src={Banner} alt="Contact Us Banner" />
           </div>
-          <h1 className="header-title-contact">Contact Us</h1>
+          <h1 className="header-title-contact">Contáctanos</h1>
         </div>
       </header>
 
@@ -43,7 +43,7 @@ const Home = () => {
             justifyContent: "center",
           }}
         >
-          <Typography variant="h5" component="h4">
+          <Typography variant="h5" component="h5">
             Si tienes sugerencias o retroalimentación, no dudes en contactarnos.
           </Typography>
           <Button

@@ -7,9 +7,13 @@ const Registration = () => {
       <header>
         <div className="header-container-registration">
           <div className="image-overlay-registration">
-            <img className="header-image-registration" src={Banner} alt="Registration Banner" />
+            <img
+              className="header-image-registration"
+              src={Banner}
+              alt="Registration Banner"
+            />
           </div>
-          <h1 className="header-title-registration">Registration</h1>
+          <h1 className="header-title-registration">Registro</h1>
         </div>
       </header>
 
@@ -24,6 +28,9 @@ const Registration = () => {
           title="Google Form"
         ></iframe>
       </div>
+
+      <br />
+      <br />
     </div>
   );
 };
