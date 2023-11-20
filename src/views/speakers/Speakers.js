@@ -139,7 +139,7 @@ const Speakers = () => {
                         }}
                       >
                         <Typography variant="button">
-                          <b>Watch conference</b>
+                          <b>Ver Conferencia</b>
                         </Typography>
                       </Button>
                     </Link>

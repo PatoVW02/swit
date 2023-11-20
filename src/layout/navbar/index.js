@@ -18,14 +18,14 @@ const Navbar = () => {
         <Bars />
         <NavMenu>
           <NavLink to="/speakers" activeStyle>
-            Speakers
+            Conferencistas
           </NavLink>
 
           <NavLink to="/registration" activeStyle>
-            Registration
+            Registro
           </NavLink>
           <NavLink to="/contact" activeStyle>
-            Contact
+            Contacto
           </NavLink>
         </NavMenu>
       </Nav>
