@@ -197,7 +197,7 @@ const Home = () => {
             }}
           >
             <Typography variant="h5">
-              SWIT es una iniciativa del Departamento de Ciencias de la
+              SWITE es una iniciativa del Departamento de Ciencias de la
               Computación del Tecnológico de Monterrey para inspirar a
               estudiantes de ingeniería a través de charlas de expertos en TI
               sobre sus contribuciones históricas y casos de éxito.
